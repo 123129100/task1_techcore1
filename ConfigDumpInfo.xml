@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Должности" id="138effbc-a48d-4004-be50-c32fdf238f67" configVersion="4deea4a6081eaa46a17768b0f29b9e1100000000"/>
+		<Metadata name="Catalog.Должности.Form.ФормаСписка" id="25726612-3e38-4ac9-b0cd-c99d62dec34e" configVersion="69488ee7c919a247bfb03a522e61e95d00000000"/>
+		<Metadata name="Catalog.Должности.Form.ФормаСписка.Form" id="25726612-3e38-4ac9-b0cd-c99d62dec34e.0" configVersion="e3c6741289ff2f4591b6c013abe1799900000000"/>
+		<Metadata name="Catalog.Должности.Form.ФормаЭлемента" id="09cf8ec8-3a39-4236-98dc-8b94ca6e3ca5" configVersion="9f4a1bfbf3f0774bb07735c0158af97e00000000"/>
+		<Metadata name="Catalog.Должности.Form.ФормаЭлемента.Form" id="09cf8ec8-3a39-4236-98dc-8b94ca6e3ca5.0" configVersion="ede31db8327ccc46a4612692386d8c3200000000"/>
+		<Metadata name="Catalog.Отделы" id="85d1fe08-ccfb-4aa3-a82c-2ba9e05ad071" configVersion="812d49c68033a149ba318631df2d76d400000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка" id="3594668e-a580-4197-ad4b-15428c8dbad2" configVersion="aae5608bfbe7494c869c15c01243462000000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаСписка.Form" id="3594668e-a580-4197-ad4b-15428c8dbad2.0" configVersion="7346553314fa93499d337d450e13cf5e00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента" id="9d7a0852-ed8d-489d-b133-105351ad426a" configVersion="d3c80ca9986a024499d5e0323749006b00000000"/>
+		<Metadata name="Catalog.Отделы.Form.ФормаЭлемента.Form" id="9d7a0852-ed8d-489d-b133-105351ad426a.0" configVersion="d70a89c390bf274985c31b1488ebcdfb00000000"/>
+		<Metadata name="Catalog.Сотрудники" id="403a75ec-dc1a-4a11-9100-3d67aa37c6fa" configVersion="d5b1511be9589d478d997f2c786b5c7b00000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="47313239-90b0-4b20-8c40-6c0951c6d50b"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Email" id="6275ae5d-afcc-4a18-aa22-53622a00f03d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.СтатусСотрудника" id="6a42c467-9416-4dc5-bbca-b5f5e826df10"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="6a74f836-8070-41f7-86a0-5fc6c0f49999"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Телефон" id="725fcbcd-9a44-4df8-b039-066164a0a273"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Отдел" id="77603784-01f5-4834-964f-82281981d636"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="f9acd1b3-24bb-4b8f-bd37-a209bd102bb4"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка" id="65771230-83f0-4db3-865a-0fb29b960abb" configVersion="9bab62f227ab9244a1ee8232b54fc47a00000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="65771230-83f0-4db3-865a-0fb29b960abb.0" configVersion="c14672a529439c408a6ef93692d2d67800000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="b2f3864e-f6d7-4b73-b502-303093a7b0ad" configVersion="01e39edb8d221546b9a585e0637aebb800000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="b2f3864e-f6d7-4b73-b502-303093a7b0ad.0" configVersion="b0347697d4a2c44fb1c4093344438a7900000000"/>
+		<Metadata name="Catalog.Сотрудники.ObjectModule" id="403a75ec-dc1a-4a11-9100-3d67aa37c6fa.0" configVersion="594c5cf402352b4bbaf77309b8b3426600000000"/>
+		<Metadata name="Configuration.Конфигурация" id="418aea87-e1ff-45e2-a59e-9e68a3658015" configVersion="59f02860cee65245b4d74f0a7296140d00000000"/>
+		<Metadata name="DataProcessor.Загрузка_Сотрудников" id="bdac796c-9a3f-412f-8484-e2f777126cc7" configVersion="10170f3bdf93b448939c03d8322557ec00000000">
+			<Metadata name="DataProcessor.Загрузка_Сотрудников.TabularSection.ДанныеФайла" id="5959507e-e37d-494b-8722-b0be5df925bc"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Загрузка_Сотрудников.Form.ФормаЗагрузки" id="e57a30b7-5e07-49cc-ad2e-c4e0b587c59f" configVersion="05727115d664a140a5a2ca3af27331d400000000"/>
+		<Metadata name="DataProcessor.Загрузка_Сотрудников.Form.ФормаЗагрузки.Form" id="e57a30b7-5e07-49cc-ad2e-c4e0b587c59f.0" configVersion="284c5b7ed09dbe4e9b04cb4b1d034ff800000000"/>
+		<Metadata name="Enum.Пол" id="b1537f38-00dc-4ee0-a2c9-1ff8889bf81c" configVersion="db05f613c86de34388ad0992c97a870000000000">
+			<Metadata name="Enum.Пол.EnumValue.Мужской" id="373a55b5-4aca-4e94-b714-80b4c3342084"/>
+			<Metadata name="Enum.Пол.EnumValue.Женский" id="91ee610f-e49e-4943-b494-e6bfc9e77f3c"/>
+		</Metadata>
+		<Metadata name="Enum.Пол.Form.ФормаСписка" id="4011214a-bbf6-4780-a9dc-28e8a795ef8e" configVersion="f72244285dc6a74690480e62915a24d600000000"/>
+		<Metadata name="Enum.Пол.Form.ФормаСписка.Form" id="4011214a-bbf6-4780-a9dc-28e8a795ef8e.0" configVersion="1aca12f19539414a9748a6020edb891100000000"/>
+		<Metadata name="Enum.СтатусСотрудника" id="f7744672-ece4-4129-92c8-b148697ffe28" configVersion="1f1e7fc7684e364a8dab0c5925b95d9500000000">
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Работает" id="b75165c0-3481-4956-849f-77e981d4e7a2"/>
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.ВДекретномОтпуске" id="d10b2363-b768-4a02-80d8-de8c86905349"/>
+			<Metadata name="Enum.СтатусСотрудника.EnumValue.Уволен" id="d6b1fbc8-bf11-4514-8e44-85f1c55af218"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусСотрудника.Form.ФормаСписка" id="2587441f-95e0-4639-b6c4-f7a6bfc19dad" configVersion="e7ac8afb291f494e9c47f6178b825bdc00000000"/>
+		<Metadata name="Enum.СтатусСотрудника.Form.ФормаСписка.Form" id="2587441f-95e0-4639-b6c4-f7a6bfc19dad.0" configVersion="e1a46a17ed192e4bb88bf0ef7fa1cd9700000000"/>
+		<Metadata name="Language.Русский" id="e6a13bcf-5852-4e7c-a413-aac6d2b80b7d" configVersion="d449b1c8f8bf6d4eaf5c0b99c9dd807200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
