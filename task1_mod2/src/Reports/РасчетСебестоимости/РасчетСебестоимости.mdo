@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e041f594-b83f-45ba-a27d-0d18a5639dea">
+  <producedTypes>
+    <objectType typeId="51e03de9-b031-421c-9e8d-ac103046883e" valueTypeId="cb1106c4-5ad2-44d5-ac4c-8f1e5607058c"/>
+    <managerType typeId="98203f50-d49b-4b25-bc0a-dd98f7800d26" valueTypeId="ef881755-80cc-46a8-a18b-882d49646379"/>
+  </producedTypes>
+  <name>РасчетСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b42eac8c-0959-43da-a399-4a95c7d83a6e">
+  <producedTypes>
+    <refType typeId="8e993b2d-1a83-4eb1-8112-4665d3d8f18c" valueTypeId="48a32e59-e3ec-46c2-8a0f-37a459b01c7b"/>
+    <listType typeId="0a8024f7-7267-4c73-9534-a0c195c6f981" valueTypeId="7b1c92be-1d4b-4f50-8f84-eb5f5d537826"/>
+    <managerType typeId="7002bbe3-bad0-4a6b-9abe-bcb780686f97" valueTypeId="37530ea9-90dc-4f3b-b2d3-e44bf4faad81"/>
+  </producedTypes>
+  <name>СтатусСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус сотрудника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="47d0528e-42b7-47a4-8d82-3bb5b127b96b">
+    <name>Работает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1926e117-d100-41f0-a852-ff5e325940f7">
+    <name>Уволен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уволен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0130388d-926f-470f-b4e3-134b4bbaab08">
+    <name>ВДекретномОтпуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>В декретном отпуске</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31340310-cc77-4ee2-8c40-5011bff0ade3">
+  <name>task1_mod2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Task1 mod2</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5a3f0378-125c-4b6a-b594-20f871181a80"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4a71e8f4-5938-4bf6-a11a-e1c2cbc9d97a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="23115bf8-7b73-4584-92d7-58e3ff64d5f4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c1d0d3da-4d64-443a-afcf-5e857d07424e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1ac72916-bbad-4475-a024-7f2de30ece09"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="89ef9909-7573-4bc6-9f11-35b114d64bfb"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7671408d-c7c9-4193-b1fc-d1ceebac7b52"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="4f961202-3565-4e4f-8e8b-cb2d2008506e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.СистемаСклада</subsystems>
+  <subsystems>Subsystem.УчетЗаявок</subsystems>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Отделы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.Заявка</documents>
+  <documents>Document.Поступление</documents>
+  <documents>Document.Реализация</documents>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.СтатусСотрудника</enums>
+  <enums>Enum.СтатусыЗаявок</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.РасчетСебестоимости</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаСотрудников</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
+</mdclass:Configuration>
