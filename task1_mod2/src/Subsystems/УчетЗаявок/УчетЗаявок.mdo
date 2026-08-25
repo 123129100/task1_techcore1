@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Клиенты</content>
   <content>Document.Заявка</content>
+  <content>Role.Администратор</content>
 </mdclass:Subsystem>

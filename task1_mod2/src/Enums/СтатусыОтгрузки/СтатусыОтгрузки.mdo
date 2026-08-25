@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a19eea8e-2b8e-460d-9820-002b1db0d2a3">
+  <producedTypes>
+    <refType typeId="5de5c542-dc7a-46ee-a2bc-60a4797a3492" valueTypeId="5a42cddd-cd39-4e8c-ba37-8ebc759b09bb"/>
+    <listType typeId="9129852c-56ba-4fff-92b1-8c960950008f" valueTypeId="a9a9bdb1-e5e9-49cf-abdb-ac66a21d4da4"/>
+    <managerType typeId="2f77b3d6-853d-4bd3-91f5-736418966278" valueTypeId="f6cefded-dd85-47dc-a4fa-5ee76347893f"/>
+  </producedTypes>
+  <name>СтатусыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы отгрузки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="27135bc9-1f32-43de-9bb3-7961d3bfb972">
+    <name>ОжидаетОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55b87432-7d09-4347-99e9-c3baaf6980fa">
+    <name>Частично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="169d7233-de16-4f97-880d-d7abf349e3d3">
+    <name>Отгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

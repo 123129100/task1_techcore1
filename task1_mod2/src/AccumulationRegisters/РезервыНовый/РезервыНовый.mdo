@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3bea5f9-9fbf-424b-9bcf-7eb30bb1b798">
+  <producedTypes>
+    <selectionType typeId="8ad7cb8c-0df7-40f1-bb87-4a5f1c80382e" valueTypeId="ba65d379-578a-4af4-8e29-74285d3aa35c"/>
+    <listType typeId="47c88111-92f0-496e-a944-c82d9a8c5583" valueTypeId="59280805-4b19-464d-8262-c36edb66aedc"/>
+    <managerType typeId="9c060556-b7e2-4c48-9fe1-bbe202a6a308" valueTypeId="5f371718-5459-4487-910a-c7c51951e812"/>
+    <recordSetType typeId="d277b482-054b-478d-971f-931d720bbaa3" valueTypeId="dc6c6bfa-4af1-4c4a-a6e9-39913af23a4c"/>
+    <recordKeyType typeId="149d546a-c966-4c16-8f92-6da18fca2c76" valueTypeId="1c0f81eb-7cfc-4654-b410-55c6934cbcfe"/>
+    <recordType typeId="02e6f647-745f-47c7-9ec3-a75a657f70ed" valueTypeId="6a789ddf-9bd9-4028-aa86-f64eaddeb5f7"/>
+  </producedTypes>
+  <name>РезервыНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервы новый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ddd00fec-014d-4c67-a3f4-ae134d42fbcb">
+    <name>КоличествоРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество резерва</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9a3f1dee-8e67-49fd-a7ee-caa7f92f0d78">
+    <name>КоличествоСписано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество списано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9fc52960-abdd-49aa-9a3a-ae8d468d37f8">
+    <name>СуммаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма резерва</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f4ef65ba-398c-41e8-be8d-fbd51c61b11d">
+    <name>ДатаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата списания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0633c143-4dbd-4a7a-bb85-b919f2776722">
+    <name>ДатаРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата резерва</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="b1b6383b-94cb-4f55-aa85-05672f74e5d3">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8686eb1a-19de-48f6-ae8a-399de15dc0c4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="70e547aa-f160-4120-a452-1ee78840025f">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6be80018-a29f-4dfb-a1d5-a3e5c744685b">
+    <name>ДокументРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ резерва</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

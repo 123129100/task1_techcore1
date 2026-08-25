@@ -40,6 +40,9 @@
   </languages>
   <subsystems>Subsystem.СистемаСклада</subsystems>
   <subsystems>Subsystem.УчетЗаявок</subsystems>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбщийМодульСклад</commonModules>
+  <commonModules>CommonModule.РаботаМРезервами</commonModules>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -50,12 +53,18 @@
   <documents>Document.Заявка</documents>
   <documents>Document.Поступление</documents>
   <documents>Document.Реализация</documents>
+  <documents>Document.Резервирование</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.СпособыРеализации</enums>
   <enums>Enum.СтатусСотрудника</enums>
   <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.СтатусыОтгрузки</enums>
+  <enums>Enum.СтатусыРеализации</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.РасчетСебестоимости</reports>
   <dataProcessors>DataProcessor.ЗагрузкаСотрудников</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.Отгрузка</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РезервыНовый</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
 </mdclass:Configuration>

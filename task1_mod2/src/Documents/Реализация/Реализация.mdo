@@ -24,6 +24,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Реализация.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Отгрузка</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
+  <registerRecords>AccumulationRegister.РезервыНовый</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3868e4d0-ba62-4924-9aac-e609a8408129">
@@ -48,10 +51,10 @@
       <value>Дата реализации</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-      </numberQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -85,6 +88,21 @@
       <stringQualifiers>
         <length>30</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69024d3a-5436-4859-ac45-92a67172b96c">
+    <name>СпособРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ реализации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРеализации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -172,6 +190,88 @@
         <numberQualifiers>
           <precision>15</precision>
           <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83576a4b-9a90-4c1b-b009-a2d35d2e0ebf">
+      <name>ОтгруженоКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отгружено количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a142a17-2c46-469c-9657-02208482e488">
+      <name>ОстатокКОтгрузке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток к отгрузке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="490d8f3a-a1fd-4602-b888-01eadc21c2e4">
+      <name>СтатусОтгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус отгрузки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыОтгрузки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c7913d4e-17e0-4838-9b33-05297b2e2687">
+      <name>Себестоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Себестоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3e28797-89e7-4a17-97e9-b7bdde4338a7">
+      <name>СуммаСебестоимости</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма себестоимости</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="228203c3-8473-46a9-9bc0-de174151c998">
+  <producedTypes>
+    <selectionType typeId="cefc8c06-02e0-40bc-acdb-889c6d79ff88" valueTypeId="5ecdb369-14d2-41d7-b08e-7c233ec63cd1"/>
+    <listType typeId="e5589adc-61ea-44ca-86a8-1eb48557d622" valueTypeId="2c6adc70-09cc-4d10-abde-5790190410fc"/>
+    <managerType typeId="618a1ef7-8394-4539-a831-d7c326c072ad" valueTypeId="c379e242-702d-4bf8-aedf-ef7209e9261f"/>
+    <recordSetType typeId="4f0bbf16-c4ca-4125-8a0b-d9e5eb31e87a" valueTypeId="bbae3e68-90ac-497c-ab5f-c92668aee482"/>
+    <recordKeyType typeId="5f58fe84-b502-42d7-bbab-000811206db0" valueTypeId="9f4f81da-b90b-4752-9198-9dcf1b95e5a6"/>
+    <recordType typeId="b272c046-6ab4-45a7-8f68-89879a0c3d26" valueTypeId="de185bc1-a63d-4460-93c1-4a061553ac24"/>
+  </producedTypes>
+  <name>Отгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="92a9004f-2a8f-46b2-ae2c-be09121c676d">
+    <name>КоличествоОтгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество отгружено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="026de1bc-891b-4143-825c-1db947815687">
+    <name>СуммаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма отгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0fc37339-8f48-48d1-8fdd-13252a3454a9">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4e8459f6-b3a8-46eb-a291-b96a49e5f2d7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b92c1846-b7aa-450b-a806-61d49b655235">
+    <name>ДокументРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ реализации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

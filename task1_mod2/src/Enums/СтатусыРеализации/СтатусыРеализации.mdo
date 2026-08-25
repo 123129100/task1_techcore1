@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7ab6c2-629c-4cd7-8419-61b10b2bd87f">
+  <producedTypes>
+    <refType typeId="d4c8b531-86fa-4029-8109-26f0e1cf6aba" valueTypeId="1d47a889-5dbe-41cc-bd65-e96ef3f5b256"/>
+    <listType typeId="8e951bfc-0582-452b-9d9d-27f5a7753921" valueTypeId="bac3bd42-f28a-45fc-b99d-ab84888914b3"/>
+    <managerType typeId="11482dd9-aa7d-42ec-9175-4ba4509358b9" valueTypeId="0785848a-fe70-47ed-9225-a4bfa46ae19d"/>
+  </producedTypes>
+  <name>СтатусыРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы реализации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f4503e7-e17a-41e6-8e31-cdcf464beaf9">
+    <name>Частично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c62c67cf-be7a-421e-9c09-9db68a1b79ad">
+    <name>Отгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

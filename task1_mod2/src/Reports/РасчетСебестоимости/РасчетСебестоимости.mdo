@@ -10,4 +10,13 @@
     <value>Расчет себестоимости</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасчетСебестоимости.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="4f581db9-23e8-41f2-b342-84ad6cd9ab04">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:Report>

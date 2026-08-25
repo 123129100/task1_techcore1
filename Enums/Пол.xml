@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Enum uuid="b1537f38-00dc-4ee0-a2c9-1ff8889bf81c">
+	<Enum uuid="2f619506-e639-4d42-9e53-b85796da1fc7">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.Пол" category="Ref">
-				<xr:TypeId>d245a042-f194-4fcc-b487-d18710a9ed6e</xr:TypeId>
-				<xr:ValueId>b6421d4c-5848-46cd-b7c2-b43614842354</xr:ValueId>
+				<xr:TypeId>e2ad09ea-5619-4586-a635-f5c6c9574f7e</xr:TypeId>
+				<xr:ValueId>181fd401-25e7-47ab-ac7e-922f66589267</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.Пол" category="Manager">
-				<xr:TypeId>11ada50a-a14a-4861-854f-c2448645b00a</xr:TypeId>
-				<xr:ValueId>c3df697d-c52c-4e95-bae8-af082aa143c8</xr:ValueId>
+				<xr:TypeId>b4acf76d-8a34-4f01-92b4-fb181c6382b3</xr:TypeId>
+				<xr:ValueId>74c4f9af-38ff-4106-95d6-f6545f9292d2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.Пол" category="List">
-				<xr:TypeId>8ba890f5-eba0-4469-a5ee-3f4f24e01453</xr:TypeId>
-				<xr:ValueId>f99a21c7-25c6-4f23-9745-1e2ee2c065f9</xr:ValueId>
+				<xr:TypeId>8abd732b-903c-4cbc-a126-7fc6f6de9577</xr:TypeId>
+				<xr:ValueId>ca0a94ea-178a-430d-bc16-31f7c504f020</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -24,11 +24,11 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
+			<UseStandardCommands>false</UseStandardCommands>
 			<Characteristics/>
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
-			<DefaultListForm>Enum.Пол.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
@@ -38,31 +38,30 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="91ee610f-e49e-4943-b494-e6bfc9e77f3c">
+			<EnumValue uuid="5516d59c-9edd-45fd-8830-4ef097294a37">
 				<Properties>
-					<Name>Женский</Name>
+					<Name>Жен</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Женский</v8:content>
+							<v8:content>Жен</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="373a55b5-4aca-4e94-b714-80b4c3342084">
+			<EnumValue uuid="58939caf-eb3a-4d55-b117-9ba8d3a2965c">
 				<Properties>
-					<Name>Мужской</Name>
+					<Name>Муж</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Мужской</v8:content>
+							<v8:content>Муж</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

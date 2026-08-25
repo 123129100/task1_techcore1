@@ -15,4 +15,7 @@
   <content>Document.Реализация</content>
   <content>Report.ОстаткиТоваров</content>
   <content>Report.РасчетСебестоимости</content>
+  <content>Role.Администратор</content>
+  <content>AccumulationRegister.Отгрузка</content>
+  <content>Document.Резервирование</content>
 </mdclass:Subsystem>

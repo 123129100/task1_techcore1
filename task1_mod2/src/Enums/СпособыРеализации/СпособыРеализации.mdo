@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1cffc00-6b63-446a-8247-80416ff31bf3">
+  <producedTypes>
+    <refType typeId="c1dc2f13-0fd0-485e-ba0f-e9f2dc009e7c" valueTypeId="40f1b7b6-a679-406b-934e-ceb583ad170f"/>
+    <listType typeId="48ca425c-cca5-4d73-94c4-3f825f544761" valueTypeId="42af3d87-223e-47c3-9c69-4d91e4d4e7c8"/>
+    <managerType typeId="1986a285-1248-45f7-973b-0cdd97d6c267" valueTypeId="c128d608-ec85-41e8-8dc3-6eb59e075a4d"/>
+  </producedTypes>
+  <name>СпособыРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы реализации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb1d2b60-e6bb-4a88-b416-8803ae60fa5c">
+    <name>СоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Со склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4df8408b-0f47-4d07-a87c-5c6e64574460">
+    <name>СРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>С резерва</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f16ffb6-3e75-40d8-be12-6df600b1665b">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
