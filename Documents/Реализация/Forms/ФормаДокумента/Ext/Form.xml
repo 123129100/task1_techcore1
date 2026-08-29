@@ -58,6 +58,7 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Объект.Товары</DataPath>
+			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТоварыКонтекстноеМеню" id="20"/>
 			<AutoCommandBar name="ТоварыКоманднаяПанель" id="21"/>
 			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="22"/>

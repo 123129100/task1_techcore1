@@ -5,10 +5,10 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<Button name="Печать" id="44">
@@ -71,6 +71,7 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Объект.Услуги</DataPath>
+			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="УслугиКонтекстноеМеню" id="11"/>
 			<AutoCommandBar name="УслугиКоманднаяПанель" id="12"/>
 			<ExtendedTooltip name="УслугиРасширеннаяПодсказка" id="13"/>
