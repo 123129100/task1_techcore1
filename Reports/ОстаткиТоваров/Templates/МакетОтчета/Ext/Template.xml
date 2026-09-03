@@ -163,6 +163,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Склад</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>b60c8655-3635-43d3-814d-3e9d71df6783</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
@@ -170,6 +171,7 @@
 						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
 						<v8:date>2026-08-01T00:00:00</v8:date>
 					</dcscor:value>
+					<dcsset:userSettingID>38bc1705-a5a6-4af2-a2c1-c279a9105346</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

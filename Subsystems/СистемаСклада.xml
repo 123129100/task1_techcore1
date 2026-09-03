@@ -27,6 +27,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Администратор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Отгрузка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Резервирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПродажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетABCКлиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетТопТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетЗадолженность</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

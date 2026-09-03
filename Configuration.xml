@@ -275,6 +275,10 @@
 			<Enum>СтатусыРеализации</Enum>
 			<Report>ОстаткиТоваров</Report>
 			<Report>РасчетСебестоимости</Report>
+			<Report>ОтчетПродажи</Report>
+			<Report>ОтчетABCКлиенты</Report>
+			<Report>ОтчетТопТоваров</Report>
+			<Report>ОтчетЗадолженность</Report>
 			<DataProcessor>ЗагрузкаСотрудников</DataProcessor>
 			<AccumulationRegister>Отгрузка</AccumulationRegister>
 			<AccumulationRegister>РезервыНовый</AccumulationRegister>
