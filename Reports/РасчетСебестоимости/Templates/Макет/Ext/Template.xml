@@ -64,25 +64,11 @@
 ГДЕ
   
      Товары.Период МЕЖДУ &amp;ДатаНачало И &amp;ДатаКонец
-    И Товары.Склад = &amp;Склад
+
 СГРУППИРОВАТЬ ПО
     НоменклатураСпр.Наименование,
     СкладыСпр.Наименование</query>
 	</dataSet>
-	<parameter>
-		<name>Склад</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Склад</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Склады</v8:Type>
-		</valueType>
-		<value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</value>
-		<useRestriction>false</useRestriction>
-	</parameter>
 	<parameter>
 		<name>ДатаНачало</name>
 		<title xsi:type="v8:LocalStringType">
@@ -136,10 +122,6 @@
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Склад</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ДатаНачало</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>

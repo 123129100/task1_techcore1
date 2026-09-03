@@ -172,8 +172,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="4f961202-3565-4e4f-8e8b-cb2d2008506e" configVersion="a3969e72ca925e4b8551df46e04d4a8000000000"/>
 		<Metadata name="Report.ОстаткиТоваров" id="98f4fc21-ab0e-422c-93bc-1de77d45af5b" configVersion="dcb9895594ec884092f39213c88b0d5f00000000"/>
-		<Metadata name="Report.ОстаткиТоваров.Template.МакетОтчета" id="631bbe7c-bae0-4453-99e0-f146cc435508" configVersion="a842ee48c5595649ae4c112ca3301a0800000000"/>
-		<Metadata name="Report.ОстаткиТоваров.Template.МакетОтчета.Template" id="631bbe7c-bae0-4453-99e0-f146cc435508.0" configVersion="67d9aed874d3f54aa7691ebe3bd713c900000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.МакетОтчета" id="631bbe7c-bae0-4453-99e0-f146cc435508" configVersion="9c49d5cc2ddde34ab79e07d8ba66772200000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.МакетОтчета.Template" id="631bbe7c-bae0-4453-99e0-f146cc435508.0" configVersion="deefaa63338b704f88b7dd1d2f8ffb7200000000"/>
 		<Metadata name="Report.ОтчетABCКлиенты" id="01a784ff-3ca6-44ac-9311-b02fd984ed28" configVersion="7ed66d39835ffc489433c271d9680a9200000000"/>
 		<Metadata name="Report.ОтчетABCКлиенты.Template.МакетОтчетаОсновной" id="af7ba46f-79a6-4ebd-80e7-e38d2c8e2d3b" configVersion="a4630ce7198c384093df2908f034219100000000"/>
 		<Metadata name="Report.ОтчетABCКлиенты.Template.МакетОтчетаОсновной.Template" id="af7ba46f-79a6-4ebd-80e7-e38d2c8e2d3b.0" configVersion="374e8ca84df2b549860ae0d9eceabea800000000"/>
@@ -189,8 +189,8 @@
 		<Metadata name="Report.ОтчетТопТоваров.Template.ОсновнойМакетОтчета.Template" id="0464f3c7-c90e-483c-8e0d-50bf5e5cca23.0" configVersion="1cd0449f47a8e441b683629d3c76330000000000"/>
 		<Metadata name="Report.РасчетСебестоимости" id="e041f594-b83f-45ba-a27d-0d18a5639dea" configVersion="9cc0e684f64e934cbe79fc1fe5325a5300000000"/>
 		<Metadata name="Report.РасчетСебестоимости.ObjectModule" id="e041f594-b83f-45ba-a27d-0d18a5639dea.0" configVersion="5983f1088bcff543b5d80c7ecdd654ff00000000"/>
-		<Metadata name="Report.РасчетСебестоимости.Template.Макет" id="4f581db9-23e8-41f2-b342-84ad6cd9ab04" configVersion="155c0b5c75283f4b9c4862c29d76fec500000000"/>
-		<Metadata name="Report.РасчетСебестоимости.Template.Макет.Template" id="4f581db9-23e8-41f2-b342-84ad6cd9ab04.0" configVersion="934eb60a82cadf4ca76022f04aaf1f0500000000"/>
+		<Metadata name="Report.РасчетСебестоимости.Template.Макет" id="4f581db9-23e8-41f2-b342-84ad6cd9ab04" configVersion="117f44d6de12224fa51c427e5df2ce6400000000"/>
+		<Metadata name="Report.РасчетСебестоимости.Template.Макет.Template" id="4f581db9-23e8-41f2-b342-84ad6cd9ab04.0" configVersion="001d03a25c976b49b8a338df02de425700000000"/>
 		<Metadata name="Role.Администратор" id="2dc57384-c60a-4454-bf2f-0b4da8ca3b27" configVersion="825e3b38bff0354ebade477e24293db800000000"/>
 		<Metadata name="Role.Администратор.Rights" id="2dc57384-c60a-4454-bf2f-0b4da8ca3b27.0" configVersion="c0f8cbd6fcbedd4992d01b9583b1854300000000"/>
 		<Metadata name="Subsystem.СистемаСклада" id="04213eba-d1dc-447f-9721-c1cb37f771f7" configVersion="1f028a58b12b6449bbf9dde42d5b839300000000"/>
