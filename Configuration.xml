@@ -279,6 +279,9 @@
 			<Report>ОтчетABCКлиенты</Report>
 			<Report>ОтчетТопТоваров</Report>
 			<Report>ОтчетЗадолженность</Report>
+			<Report>ОтчетПродажиПоменеджерам</Report>
+			<Report>ОтчетПродажиПоПериодам</Report>
+			<Report>ОтчетDashboardРуководителя</Report>
 			<DataProcessor>ЗагрузкаСотрудников</DataProcessor>
 			<AccumulationRegister>Отгрузка</AccumulationRegister>
 			<AccumulationRegister>РезервыНовый</AccumulationRegister>

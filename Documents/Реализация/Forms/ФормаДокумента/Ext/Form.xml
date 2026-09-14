@@ -46,6 +46,12 @@
 			<ContextMenu name="СпособРеализацииКонтекстноеМеню" id="48"/>
 			<ExtendedTooltip name="СпособРеализацииРасширеннаяПодсказка" id="49"/>
 		</InputField>
+		<InputField name="Менеджер" id="65">
+			<DataPath>Объект.Менеджер</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МенеджерКонтекстноеМеню" id="66"/>
+			<ExtendedTooltip name="МенеджерРасширеннаяПодсказка" id="67"/>
+		</InputField>
 		<InputField name="Комментарий" id="16">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
