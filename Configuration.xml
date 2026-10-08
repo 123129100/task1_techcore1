@@ -252,9 +252,12 @@
 			<Language>Русский</Language>
 			<Subsystem>СистемаСклада</Subsystem>
 			<Subsystem>УчетЗаявок</Subsystem>
+			<SessionParameter>ТекущийПольщователь</SessionParameter>
 			<Role>Администратор</Role>
+			<Role>БазовыеПрава</Role>
 			<CommonModule>ОбщийМодульСклад</CommonModule>
 			<CommonModule>РаботаМРезервами</CommonModule>
+			<CommonModule>МодульРаботыСЗадачами</CommonModule>
 			<Catalog>Должности</Catalog>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -262,10 +265,12 @@
 			<Catalog>Отделы</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>Заявка</Document>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>Резервирование</Document>
+			<Document>ЗаявкаНаОтпуск</Document>
 			<Enum>ЕдиницыИзмерения</Enum>
 			<Enum>Пол</Enum>
 			<Enum>СпособыРеализации</Enum>
@@ -273,6 +278,7 @@
 			<Enum>СтатусыЗаявок</Enum>
 			<Enum>СтатусыОтгрузки</Enum>
 			<Enum>СтатусыРеализации</Enum>
+			<Enum>РезультатыСогласования</Enum>
 			<Report>ОстаткиТоваров</Report>
 			<Report>РасчетСебестоимости</Report>
 			<Report>ОтчетПродажи</Report>
@@ -283,9 +289,13 @@
 			<Report>ОтчетПродажиПоПериодам</Report>
 			<Report>ОтчетDashboardРуководителя</Report>
 			<DataProcessor>ЗагрузкаСотрудников</DataProcessor>
+			<InformationRegister>АдресацияЗадач</InformationRegister>
+			<InformationRegister>ИсторияСогласований</InformationRegister>
 			<AccumulationRegister>Отгрузка</AccumulationRegister>
 			<AccumulationRegister>РезервыНовый</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладе</AccumulationRegister>
+			<BusinessProcess>СогласованиеОтпуска</BusinessProcess>
+			<Task>ЗадачаИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

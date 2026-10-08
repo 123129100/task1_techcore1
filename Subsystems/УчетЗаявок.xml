@@ -19,6 +19,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Клиенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Заявка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Администратор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.СогласованиеОтпуска</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаОтпуск</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Отделы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСогласований</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должности</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="6c2c1917-38cd-4ae9-b3d2-43c85e6d26b6">
+		<Name>ИнформационныеТехнологии</Name>
+		<Code>000000001</Code>
+		<Description>Информационные технологии</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9805594c-f0ee-44a0-993b-ae4dc4038849">
+		<Name>КадровыйОтдел</Name>
+		<Code>000000002</Code>
+		<Description>Кадровый отдел</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

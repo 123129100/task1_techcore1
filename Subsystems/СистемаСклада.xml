@@ -34,6 +34,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПродажиПоменеджерам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПродажиПоПериодам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетDashboardРуководителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.СогласованиеОтпуска</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
